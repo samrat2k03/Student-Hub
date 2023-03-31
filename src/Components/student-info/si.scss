@@ -1,0 +1,170 @@
+.student_info_total {
+  padding-top: 100px;
+  font-family: open-sans, sans-serif;
+// font-family: Poppins,sans-serif;  
+// font-weight: 800;
+font-weight: normal;
+
+  .search_section_si {
+    background-color: aliceblue;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 430px;
+    margin-right: 440px;
+    border-radius: 20px;
+    padding-left: 30px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+    // border: 1px solid salmon;
+
+    .search_si {
+      display: flex;
+      justify-content: center;
+      #search_si {
+        height: 43px;
+        // width: 500px;
+        outline-width: 0;
+        padding: 18px;
+        font-size: 20px;
+        font-family: roboto, sans-serif;
+        border-radius: 20px;
+        border: none;
+        border-bottom: #1b3858;
+        margin-left: 10px;
+        height: 30px;
+        width: 22rem;
+        outline-width: 0;
+        // background-color: rgb(248, 231, 231);
+      }
+      #iconbtn_search {
+        height: 22px;
+        // width: 5px;
+        // border: 1px solid salmon;
+        margin-top: 7px;
+      }
+    }
+  }
+  .outputFromTheFirestore{
+    // border: 1px solid salmon;
+    position: sticky;
+    margin-top: 80px;
+    margin-left: 275px;
+    width: 800px ;
+    height: 350px;
+    border-radius: 0.75rem;
+    box-shadow: 0 22px 70px 4px rgba(0, 0, 0, 0.56), 0 0 0 1px rgba(0, 0, 0, 0.3);
+    background: #fff;
+    transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover {
+      transform: scale(1.1);
+      box-shadow: 0 32px 80px 14px rgba(0, 0, 0, 0.36),
+        0 0 0 1px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  // error message
+  #errM{
+    // padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top:120px;
+
+    #errMessage__{
+        font-size:50px;
+    }
+    #errMessage__2{
+        padding-top: 15px;
+        font-size:20px;
+    }
+  }
+  }
+  .search_result_section_si {
+    padding-left: 200px;
+    padding-top: 20px;
+    // overflow-y: scroll;
+    max-height: 250px;
+  }
+  
+  .label_si {
+    margin-bottom: 30px;
+    font-weight: normal;
+  }
+  
+  .result_label {
+    font-weight: bold;
+  }
+  
+  .result_name {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+  }
+  .fullList{
+    // border: 1px solid salmon;
+    margin-left: 1050px;
+    margin-top: -47px;
+  }
+  
+  .cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+   }
+   
+   .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #b1dae7;
+    width: 270px;
+    height: 45px;
+    transition: all 0.6s ease;
+   }
+   
+   .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #234567;
+    // color:darkblue;
+   }
+   
+   .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #234567;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover:before {
+    width: 100%;
+    background: #b1dae7;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active {
+    transform: scale(0.95);
+   }

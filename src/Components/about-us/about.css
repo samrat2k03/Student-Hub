@@ -1,0 +1,64 @@
+.about_us {
+  height: 80vh;
+  padding-top: 110px;
+  font-family: "Raleway", sans-serif;
+  background-color: hsl(212, 36%, 21%);
+  color: #EEEEEE;
+}
+
+.ol-li {
+  list-style: disc inside;
+}
+
+.about_title {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+.about_content {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "B612", sans-serif;
+  font-weight: 400;
+}
+
+#abt_story, #abt_story1, #purpose {
+  margin-bottom: 10px;
+}
+
+#advance {
+  color: #e63946;
+}
+
+.about_creators {
+  background-color: #8d99ae;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 15px 17px 24px -1px rgba(0, 0, 0, 0.63);
+  width: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 380px;
+  margin-top: 60px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+.about_team {
+  margin-top: 10px;
+}
+
+#dev12 {
+  text-decoration: underline;
+}
+
+#samr {
+  color: #e63946;
+}/*# sourceMappingURL=about.css.map */

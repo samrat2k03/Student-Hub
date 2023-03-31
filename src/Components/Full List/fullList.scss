@@ -1,0 +1,61 @@
+// .fullListContainer{
+//     padding-top: 200px;
+//     color: whitesmoke;
+// }
+
+.fullListContainer {
+    padding-top: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px;
+  }
+  
+  .header_student_data {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header_student_data h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    color:rgb(196, 217, 238);
+  }
+  
+  .table_for_data {
+    border: 1.5px solid #ccc;
+    border-radius: 5px;
+    // overflow-y: scroll;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    // border: 1px solid salmon;
+  }
+  
+  th {
+    text-align: left;
+    // background-color: #f2f2f2;
+    background-color: rgb(150, 229, 255);
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  td {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    // border-left:1px soldid #000 ;
+    // border-right:1px soldid #000 ;
+
+  }
+  
+  
+  tr:nth-child(even) td {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: #f2f2f2;
+  }
+  

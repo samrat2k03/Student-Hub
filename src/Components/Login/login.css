@@ -1,0 +1,52 @@
+.container_login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #223449;
+  font-family: "Poppins", sans-serif;
+}
+
+.login_card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  max-width: 500px;
+  text-align: center;
+  height: 250px;
+  font-family: "Poppins", sans-serif;
+}
+
+#hub0 {
+  color: red;
+}
+
+#s1 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+#s2 {
+  font-size: 20px;
+  color: #110f0f;
+  margin-top: 40px;
+}
+
+#s3 {
+  margin-top: 30px;
+  color: #0a1929;
+  font-weight: 400;
+}
+
+.signin_btn button {
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.3s ease-in-out;
+}/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,66 @@
+.discussion_container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    // height: 87.5vh;
+    margin-top:85px;
+    margin-left: 310px;
+    // margin-right: 50px;
+    width: 55%;  
+    overflow-y: scroll;   
+    // border: 1px solid red;
+}
+
+.chat_footer__discussions {
+    margin-top: 435px;
+    margin-right: 320px;
+    // padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 55%;
+    // border: 1px solid red;
+  }
+
+   #form_send__discussions {
+    display: flex;
+    position: sticky;
+
+  }
+   #send1__discussions {
+      flex: 1;
+      border-radius: 20px;
+      padding: 13px;
+      border: none;
+      outline-width: 0;
+      width: 350px;
+      font-size: 18px;
+    }
+    
+    .discussions_header{
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .discussions_chat_body{
+      margin-top: 10px;
+      padding: 10px;
+    }
+
+.discussions_chat_body {
+  display: flex;
+  flex-direction: column;
+  height: 472px;
+}
+
+#image_stg{
+  height: 300px;
+  width:300px;
+}

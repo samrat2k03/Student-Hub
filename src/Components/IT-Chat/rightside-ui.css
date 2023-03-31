@@ -1,0 +1,56 @@
+.rightSide_chat {
+  position: absolute;
+  display: flex;
+  width: 900px;
+  flex-direction: column;
+}
+
+.header_right {
+  background-color: #223449;
+  display: flex;
+  width: 112%;
+}
+.header_right .photo_chat {
+  margin: 18px 10px 10px 20px;
+}
+.header_right .der_top {
+  flex-direction: column;
+  margin: 10px 0 10px 20px;
+}
+.header_right .der_top #nameofthechat {
+  color: white;
+}
+.header_right .der_top #lastseenofthechat {
+  color: red;
+}
+
+.messageSender_section {
+  position: fixed;
+  bottom: 15px;
+  margin-left: 250px;
+}
+.messageSender_section #sendMessageRight {
+  height: 35px;
+  width: 200%;
+  border: none;
+  outline-width: 0;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+
+.message_body_chat {
+  display: flex;
+  flex-direction: column;
+  height: 420px;
+  flex-grow: 1;
+  overflow-y: scroll;
+  padding: 10px;
+  position: absolute;
+  top: 77px;
+  bottom: 0;
+  width: 800px;
+  margin-left: 80px;
+}/*# sourceMappingURL=rightside-ui.css.map */

@@ -1,0 +1,92 @@
+.chatRoom{
+    padding-top:80px ;
+    display: flex;
+    height: 88vh;
+
+
+    .leftside{
+        flex: 0.3;
+        background-color: #223449;
+
+        .current_user{
+            display: flex;
+            align-items: center;
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-bottom:15px ;
+            border-right: 1px solid white;
+        
+            #nowUser{
+                margin-left: 20px;
+                font-size: 25px;
+                color: rgb(196, 217, 238);
+            }
+        
+        }
+        
+        .search_user__{
+            background-color: aliceblue;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            #search_chat{
+                outline-width:0 ;
+                border: none;
+                height: 35px;
+                width: 70%;
+                margin-right: 50px;
+                font-size: 15px;
+                padding: 10px;
+            }
+        }
+        .bottom_users {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid  #223449 ;
+            border-radius: 10px;
+            cursor: pointer;
+        
+            .chat_det{
+                display: flex;
+                flex-direction: column;
+                margin-left: 15px;
+                color: azure;
+            }
+            
+          }
+        
+          .bottom_users:hover{
+            background-color: #0a1929;
+          }
+    }
+
+    .rightside{
+        flex: 0.9;
+        background-color: rgb(31, 42, 63);
+        
+    }
+}
+
+
+    #plccc{
+        position: relative;
+        display:flex;
+        margin-top: 35px;
+        margin-left:70px ;
+        height: 500px;
+        width: 900px;
+        border-radius: 50px;
+    }
+
+    #plaH1{
+        position: absolute;
+        color: white;
+        top: 85%;
+        left: 44%;
+        font-size: 22px;
+        font-family: 'open-sans',  sans-serif;
+    }

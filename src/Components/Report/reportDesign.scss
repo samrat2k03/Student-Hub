@@ -1,0 +1,115 @@
+.report_container {
+    --border-color: salmon;
+    --background-color: #f5f5f5;
+    --label-color: #444;
+    --input-color: #333;
+  
+    padding-top: 100px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .report_content{
+        margin-top: 15px;
+        width: 60%;
+
+    .report_title {
+      text-align: center;
+      margin-bottom: 20px;
+  
+      h2 {
+        font-size: 54px;
+        font-weight: 700;
+        margin: 0;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  
+    .report_body {
+      display: flex;
+      flex-direction: column;
+  
+      label {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        color: #ccc;
+        margin-left: 50px;
+      }
+      #nameOfTheEmailSender{
+        background-color: white;
+        font-weight: normal;
+        // padding-left: 10px;
+        padding: 2px 2px 2px 10px;
+        border-radius: 3px;
+        margin-left:45px ;
+        margin-right:30px ;
+        margin-bottom: 10px;
+      }
+  
+      textarea {
+        margin-left: 45px;
+        font-size: 23px;
+        padding: 20px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        color: var(--input-color);
+        height: 100px;
+        width: 700px;
+        font-weight: 700;
+  
+        &:focus {
+          outline: none;
+        //   border-color: #007bff;
+          box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+        }
+      }
+    }
+    .button_for_report{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  .footer_report{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    height: 35px;
+    color: #ccc;
+    font-size: 20px;
+    font-weight: 400;    
+
+    #email4me{
+        color: rgb(75, 233, 75);
+    }
+  }
+}
+
+// #nameOftheUser #emailOftheUser
+
+.textBoxReport{
+    height: 30px;
+    width: 300px;
+    outline-width: 0;
+    margin-left: 200px;
+    margin-bottom: 15px;
+    padding: 2px 2px 2px 20px;
+    border-radius: 10px;
+    border:none;
+}
+
+#nameOftheUser{
+    margin-left: 150px;
+}
+
+#emailOftheUser{
+    margin-left: 76px;
+}
